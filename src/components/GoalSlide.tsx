@@ -16,7 +16,7 @@ export function GoalSlide({ number, title, description, kpis, note }: GoalSlideP
       {/* Header */}
       <div className="flex items-center gap-5">
         <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full glass border-white/20">
-          <span className="text-2xl md:text-3xl font-semibold text-gradient tabular-nums leading-none">
+          <span className="text-2xl md:text-3xl font-semibold text-white tabular-nums leading-none">
             {number}
           </span>
           <span className="text-xs font-mono tracking-[0.2em] text-white/70 uppercase">
