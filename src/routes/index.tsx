@@ -18,39 +18,37 @@ const goals = [
     number: "01",
     title: "Wykorzystywanie AI do szybszego projektowania",
     description:
-      "Używać AI do tworzenia wariantów, prototypowania i dokumentacji — żeby szybciej dochodzić do najlepszych rozwiązań.",
+      "Używać AI do tworzenia wariantów, prototypowania i dokumentacji.",
     kpis: [
-      { label: "Skrócenie czasu wariantów o X%" },
-      { label: "Liczba projektów wspartych AI" },
-      { label: "Liczba wariantów wygenerowanych z AI" },
+      { label: "skrócenie czasu wariantów o X%" },
+      { label: "liczba projektów wspartych AI" },
+      { label: "liczba wariantów z AI" },
     ],
   },
   {
     number: "02",
-    title: "Odbudowa design systemu",
+    title: "Odbudowa design systemu*",
     description:
-      "Stworzyć DS dla premium z optymalizacją i dokumentacją pod narzędzia AI.",
-    note: "* fundament pod skalowanie zespołu i AI-driven workflow",
+      "Stworzyć DS dla premium + optymalizacja/dokumentacja pod narzędzia AI",
     kpis: [
-      { label: "Liczba komponentów w nowym DS" },
-      { label: "Adoption rate DS w projektach" },
-      { label: "Pokrycie dokumentacji pod AI" },
+      { label: "liczba komponentów w nowym DS" },
+      { label: "adoption rate DS w projektach" },
     ],
   },
   {
     number: "03",
     title: "Rozwijanie produktu na podstawie analizy i researchu",
     description:
-      "Proponować usprawnienia oparte na danych i researchu — przekuwać insighty w konkretne inicjatywy.",
+      "Proponować usprawnienia oparte na danych i researchu.",
     kpis: [
-      { label: "Liczba analiz / deep dive'ów" },
-      { label: "Liczba insightów w projektach" },
-      { label: "Liczba inicjatyw i feedback do nich" },
+      { label: "liczba analiz/deep dive’ów" },
+      { label: "liczba insightów w projektach" },
+      { label: "liczba przesłanych inicjatyw i feedback do nich" },
     ],
   },
 ];
 
-const totalSlides = goals.length + 2; // intro + goals + outro
+const totalSlides = goals.length + 1; // intro + goals
 
 function Index() {
   const [current, setCurrent] = useState(0);
