@@ -99,7 +99,7 @@ function Index() {
               Cele indywidualne
             </h1>
             <div className="mt-10 flex items-center gap-3 text-white/50 text-sm">
-              <span>28.04.2026</span>
+              <span>Kwiecień 2026</span>
             </div>
           </div>
         </Slide>
