@@ -15,10 +15,15 @@ export function GoalSlide({ number, title, description, kpis, note }: GoalSlideP
     <div className="h-full w-full flex flex-col justify-between p-10 md:p-16 lg:p-20">
       {/* Header */}
       <div className="flex items-center gap-5">
-        <div className="text-sm font-mono tracking-[0.2em] text-muted-foreground uppercase">
-          Cel {number} / 03
+        <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full glass border-white/20">
+          <span className="text-2xl md:text-3xl font-semibold text-gradient tabular-nums leading-none">
+            {number}
+          </span>
+          <span className="text-xs font-mono tracking-[0.2em] text-white/70 uppercase">
+            / 03 · Cel
+          </span>
         </div>
-        <div className="h-px flex-1 bg-gradient-accent-line opacity-60" />
+        <div className="h-px flex-1 bg-gradient-accent-line opacity-80" />
       </div>
 
       {/* Main content */}
