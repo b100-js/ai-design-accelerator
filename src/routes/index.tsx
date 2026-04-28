@@ -115,20 +115,6 @@ function Index() {
           </Slide>
         ))}
 
-        {/* Outro */}
-        <Slide active={current === totalSlides - 1}>
-          <div className="h-full w-full flex flex-col justify-center items-center p-10 text-center">
-            <div className="text-sm font-mono tracking-[0.25em] text-white/50 uppercase mb-6">
-              Dziękuję
-            </div>
-            <h2 className="text-5xl md:text-7xl font-semibold tracking-tight leading-tight text-gradient max-w-4xl">
-              Pytania?
-            </h2>
-            <p className="text-lg text-white/60 mt-8 max-w-xl">
-              Otwarci na dyskusję, doprecyzowanie KPI i ustalenie priorytetów.
-            </p>
-          </div>
-        </Slide>
 
         {/* Bottom UI: progress + nav */}
         <div className="absolute bottom-0 left-0 right-0 p-6 md:p-8 flex items-center justify-between gap-6 z-10">
