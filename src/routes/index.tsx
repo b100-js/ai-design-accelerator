@@ -98,9 +98,9 @@ function Index() {
               Cele indywidualne
             </div>
             <h1 className="text-6xl md:text-7xl lg:text-8xl font-semibold tracking-tight leading-[0.95] text-white max-w-4xl">
-              2026 Design
+              2026 Cele
               <br />
-              Team Goals
+              indywidualne - Bartek
             </h1>
             <div className="mt-10 flex items-center gap-3 text-white/50 text-sm">
               <span>Design Team</span>
