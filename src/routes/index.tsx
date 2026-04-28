@@ -93,14 +93,12 @@ function Index() {
         <Slide active={current === 0}>
           <div className="h-full w-full flex flex-col justify-end p-10 md:p-16 lg:p-20">
             <div className="text-sm font-mono tracking-[0.25em] text-white/50 uppercase mb-6">
-              Cele indywidualne
+              Bartek Stokłosa
             </div>
             <h1 className="text-6xl md:text-7xl lg:text-8xl font-semibold tracking-tight leading-[0.95] text-white max-w-4xl">
-              Bartek Stokłosa
+              Cele indywidualne
             </h1>
             <div className="mt-10 flex items-center gap-3 text-white/50 text-sm">
-              <span>Design Team</span>
-              <span className="w-1 h-1 rounded-full bg-white/40" />
               <span>28.04.2026</span>
             </div>
           </div>
